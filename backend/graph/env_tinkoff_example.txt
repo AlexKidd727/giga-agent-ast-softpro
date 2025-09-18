@@ -1,0 +1,16 @@
+# Пример переменных окружения для Tinkoff агента
+# Скопируйте этот файл в .env и заполните реальными значениями
+
+# Токен API Tinkoff Invest
+TINKOFF_TOKEN=your_tinkoff_token_here
+
+# ID счета в Tinkoff Invest
+TINKOFF_ACCOUNT_ID=your_account_id_here
+
+# Режим sandbox (true/false)
+TINKOFF_SANDBOX=true
+
+# Настройки безопасности торговли
+TINKOFF_MAX_ORDER_AMOUNT=100000
+TINKOFF_MIN_ORDER_AMOUNT=1000
+TINKOFF_MAX_POSITION_SIZE=500000

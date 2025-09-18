@@ -1,0 +1,36 @@
+.venv
+.env
+front/node_modules
+.langgraph_api
+.idea
+.vscode
+.docker.env
+front/dist/**
+jupyter_fastapi/kernel_states
+tasks.db
+db
+kernel_states
+/files
+.DS_Store
+__pycache__
+.github/
+front/package-lock.json
+# Google Calendar credentials
+credentials/*.json
+credentials/*.pem
+credentials/*.key
+
+# Test files and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Temporary test files
+test_*.py.bak
+*_test_backup.py
